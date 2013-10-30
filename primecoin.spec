@@ -1,11 +1,11 @@
 Summary:	Primecoin - First Scientific Computing Cryptocurrency
 Name:		primecoin
-Version:	0.1.1
+Version:	0.1.2
 Release:	1
 License:	MIT/X11
 Group:		X11/Applications
 Source0:	https://github.com/primecoin/primecoin/archive/v%{version}xpm.tar.gz
-# Source0-md5:	c6bcaa5c10cb512a1a208b4214a20e4e
+# Source0-md5:	5db20b3cc9891dfcf932fa2be3dda850
 URL:		http://primecoin.org
 BuildRequires:	QtCore-devel
 BuildRequires:	QtDBus-devel
