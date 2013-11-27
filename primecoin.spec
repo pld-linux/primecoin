@@ -1,8 +1,8 @@
 %define	snap	20131127
 Summary:	Primecoin - First Scientific Computing Cryptocurrency
 Name:		primecoin
-Version:	0.8.3
-Release:	0.%{snap}.1
+Version:	0.1.2
+Release:	2.%{snap}.1
 License:	MIT/X11
 Group:		X11/Applications
 # Source0:	https://github.com/primecoin/primecoin/archive/v%{version}.tar.gz
