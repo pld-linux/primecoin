@@ -1,5 +1,5 @@
 %define	snap	20131127
-%define	rel	12
+%define	rel	13
 Summary:	Primecoin - First Scientific Computing Cryptocurrency
 Name:		primecoin
 Version:	0.1.2
@@ -11,6 +11,7 @@ Source0:	%{name}-20131127.tar.bz2
 # Source0-md5:	10ae9950aba9232a3c035e499c38aa74
 Patch0:		build-i486.patch
 Patch1:		boost-1.58.patch
+Patch2:		miniupnpc-2.0.patch
 URL:		http://primecoin.org
 BuildRequires:	QtCore-devel
 BuildRequires:	QtDBus-devel
@@ -38,6 +39,7 @@ Qt-based Primecoin Wallet.
 %setup -q -n %{name}-%{snap}
 %patch0 -p1
 %patch1 -p1
+%patch2 -p1
 
 %build
 qmake-qt4 bitcoin-qt.pro \
