@@ -1,5 +1,5 @@
 %define	snap	20131127
-%define	rel	14
+%define	rel	15
 Summary:	Primecoin - First Scientific Computing Cryptocurrency
 Name:		primecoin
 Version:	0.1.2
